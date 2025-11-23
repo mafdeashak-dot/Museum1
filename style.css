@@ -45,7 +45,10 @@
             background:#fff;
             color:#cfb700;
         }
-        .logo img{height:50px;}
+        .logo img{
+          height:50px;
+            border-radius:10px;
+        }
 
         nav ul{
             list-style:none;
@@ -287,3 +290,4 @@ footer p{
     color: #f9f9f9;
     font-size: larger;
 }
+
