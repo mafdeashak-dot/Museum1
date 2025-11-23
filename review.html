@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reviews - Egypt Tourism</title>
+    <link rel="stylesheet" href="style.css">
+            <link rel="icon" type="image/png" href="images.jpeg">
+
+    <style>
+    
+     *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background: #f5f5f5;
+            color: #333;
+        }
+  header{
+            width:100%;
+            height:80px;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            padding:0 20px;
+            background: #111;
+            color: #fff;
+        }
+         nav ul li a{
+            text-decoration:none;
+            color: #fff;
+            padding:8px 12px;
+            border-radius:5px;
+            transition:0.3s;
+        }
+        nav ul li a.active,
+        nav ul li a:hover{
+            background: #edf034;
+            color: #111;
+        }
+
+        .review-section{
+            max-width: 1200px;
+            margin: 100px auto 50px;
+            padding: 20px;
+        }
+
+        .review-section h2{
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 40px;
+            color: #b3a403;
+        }
+
+        .reviews-container{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .review-card{
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .review-card img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .review-card h3{
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .review-card p{
+            font-size: 16px;
+            line-height: 1.5;
+            color: #555;
+        }
+
+        @media(max-width: 768px){
+            .reviews-container{
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo"><img src="images.jpeg" >Egypt Tourism</div>
+
+   
+    <nav>
+
+        <ul>
+            <li><a href="index.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="ticket.html">Ticket</a></li>
+            <li><a href="review.html" class="active">review</a></li>
+            <li><a href="contact.html"   >Contact</a></li>
+        </ul>
+    </nav>
+       <div class="menu-toggle">&#9776;</div>
+
+</header>
+
+<section class="review-section">
+    <h2>Visitor Reviews</h2>
+    <div class="reviews-container">
+
+        <div class="review-card">
+            <img src="images (1).jpg" alt="Visitor 1">
+            <h3>Ahmed Salah</h3>
+            <p>Amazing experience! The history and architecture of Egypt are breathtaking. Highly recommend visiting the museum.</p>
+        </div>
+
+        <div class="review-card">
+            <img src="images (2).jpg" alt="Visitor 2">
+            <h3>Fatima Ali</h3>
+            <p>Beautifully maintained exhibits and very informative guides. Loved the statues and artifacts!</p>
+        </div>
+
+        <div class="review-card">
+            <img src="images (1).jpg" alt="Visitor 3">
+            <h3>Mohamed Hassan</h3>
+            <p>One of the best cultural experiences I've ever had. The gallery layout is perfect for tourists.</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<footer>
+    <p>
+        Developer by @Mafde Ashak
+    </p>
+</footer>
+
+<script src="javascript.js"></script> 
+
+</body>
+</html>
