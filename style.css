@@ -237,6 +237,8 @@ nav ul li a:hover {
 
     nav ul.show{
         display: flex;
+      align-items: center;
+        text-align: center;
     }
 
     .menu-toggle{
@@ -292,5 +294,6 @@ footer p{
     color: #f9f9f9;
     font-size: larger;
 }
+
 
 
