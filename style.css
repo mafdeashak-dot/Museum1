@@ -35,19 +35,21 @@
     box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
-        .logo{display:flex;
+      .logo{
+            display:flex;
             align-items:center;
             gap:10px;
             font-size:26px;
             font-weight:900;
             padding:6px 14px;
             border-radius:10px;
-            background:#fff;
+            background:#000000;
             color:#cfb700;
         }
         .logo img{
-          height:50px;
-            border-radius:10px;
+            height:50px;
+           border-radius:10px;
+
         }
 
         nav ul{
@@ -290,4 +292,5 @@ footer p{
     color: #f9f9f9;
     font-size: larger;
 }
+
 
